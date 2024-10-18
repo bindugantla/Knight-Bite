@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    background-color:rgba(74, 71, 71,0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+   border: 1px solid white;
+   border-radius: 5px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size:larger ;
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size:larger ;
+    font-weight: 500;
+    }
+.txt {
+    padding-left: 10px;
+    color: white;
+    padding-top: 2px;
+    }
+    
+.navlinks a:hover {
+    color: purple;
+    
+    }
+footer{
+    background: linear-gradient(to right,purple,pink,tomato);
+    height: 40px;
+    padding-top: 5px;
+    width:100vw;
+    margin-top: 30px;
+    }
+
+.text1{
+    position:absolute;
+    top: 40%;
+    left:25%;
+    font-family:cursive;
+    color: #fff;
+    font-style: initial;
+    font-size: 400%; 
+    text-align: center;
+    font-weight: 900;
+    
+}
+.btn-1{
+width:200px;
+height: 50px;
+border-radius: 20px;
+background-color: tomato;
+font-size: 25px;
+color: white;
+font-weight: 500;
+top: 30px;
+}
+.btn-2{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    font-size:medium;
+    color: white;
+    border-color: #fff ;
+    border-width: 5px;
+}
+#play-btn{
+    font-size: medium;
+
+}
+.mission-vision p{
+    font-size: 20px;
+    text-align: center;
+}
+hr.new1{
+    border-top: 5px solid rgb(254, 16, 254);
+}
+.main{
+height: 500px;
+width: 500px;
+}
+.flex1{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    height:200px;
+}
+.flex2{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    height:200px;
+    margin-top: 30px;
+}
+.icon{
+    font-size: 50px;
+    color:tomato;
+}
+.btn-22{
+    width:200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: tomato;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.last-icons{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.l-icon{
+    font-size: 35px;
+    color: tomato;
+}
+.last{
+    height: 200px;
+}
+#p1,#p2,#p3{
+    padding-left: 30px;
+    padding-right: 60px;
+}
+.btn-circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: tomato;
+    border-width: 4px;
+}

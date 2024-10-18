@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    background-color:rgba(74, 71, 71,0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+   border: 1px solid white;
+   border-radius: 5px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size:larger ;
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size:larger ;
+    font-weight: 500;
+    }
+
+    .txt{
+        padding-left: 10px;
+        color: white;
+                padding-top: 2px;
+            }
+        .navlinks a:hover{
+            color: purple;
+        }
+.text1,.text2,.text3,.text4,.text5,.text6{
+    position:absolute;
+    top: 40%;
+    left:20%;
+    font-family: cursive;
+    color: #fff;
+    font-style: initial;
+    font-size: 300%; 
+    text-align: center;
+    font-weight: 900;
+}
+.plus-operator1,.plus-operator2,.plus-operator3,.plus-operator4,.plus-operator5,.plus-operator6{
+    border-radius: 100px;
+    font-weight: 800;
+    border-color: #fff;
+width: 30px;
+height: 30px;
+background-color: transparent;
+color: white;
+font-size: medium;
+}
+.text2{
+    padding-left: 250px;
+}
+.text3{
+    padding-left:700px ;
+}
+.text6{
+    padding-left: 750px;
+}
+.text4,.text5,.text6{
+    margin-top: 250px;
+
+}
+.text4{
+    padding-left:350px ;
+}
+footer{
+    background: linear-gradient(to right,purple,pink,tomato);
+    height: 40px;
+    padding-top: 5px;
+    width:100vw;
+}
+.body-pic1{
+    width: 100vw;
+    
+}
